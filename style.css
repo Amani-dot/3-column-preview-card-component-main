@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', 'Big Shoulders Display';
+    max-width: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width:840px){
+        back
+    }
+}
+
+main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+   
+}
+
+.cards{
+    width: 300px;
+    height:400px;
+    text-align: center;
+    padding: 10px ;
+    position: relative;
+    color:hsl(0, 0%, 95%);
+    z-index:1;
+}
+
+.cars{
+    position: absolute;
+    top:10px;
+    left: 20px; 
+    margin:10px;
+}
+
+header{
+    margin:60px 0 0;
+    position:relative;
+    font-size:2.2em;
+    font-family:Big Shoulders Display;  
+    width:fit-content;
+    left: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p{
+    position: relative;
+    margin: 20px;
+    text-align:justify;
+    font-size:1em;
+    font-weight:400;
+    font-family:Lexend Deca;
+    /* outline:1px solid black; */
+} 
+
+.btns{
+   padding:10px 25px;
+   border-radius:20px;
+   border:none;
+   left: 30px;
+   position: absolute;
+   margin-top: 20px;
+
+
+}
+
+#first{
+    background-color:hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#second{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#third{
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#sedan{
+    color:hsl(31, 77%, 52%) ;
+}
+
+#suv{
+   color:hsl(179, 100%, 13%) ;
+}
+
+#luxury{
+    color:hsl(179, 100%, 13%);
+}
+
+
+.attribution{
+    position:fixed;
+    bottom:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom:40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
